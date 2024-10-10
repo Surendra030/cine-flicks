@@ -1,0 +1,62 @@
+.movie-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .movies-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px; /* Gap between cards */
+    padding: 10px 0;
+    overflow-x: auto; /* Horizontal scrollbar */
+    scroll-behavior: smooth; /* Smooth scrolling */
+  }
+  
+  .movie-grid-card {
+    flex: 0 0 auto;
+    width: 200px; /* Adjust width as per card size */
+    margin: 10px;
+  }
+
+  .movie-grid-card:hover{
+    cursor: pointer;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  
+  .movie-grid-card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .movie-grid-card-body {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .movie-grid-card-title {
+    font-size: 1.1rem;
+    margin: 5px 0;
+  }
+  
+  .movie-grid-card-overview {
+    font-size: 0.875rem;
+    color: #666;
+  }
+  
+  .movie-grid-card-rating {
+    margin-top: 10px;
+    color: #f39c12;
+  }
+  
+  .movies-list {
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none; /* For Internet Explorer and Edge */
+  }
+  
+  .movies-list::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Opera */
+  }
+  

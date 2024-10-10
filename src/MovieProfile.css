@@ -1,0 +1,130 @@
+/* MovieProfileHeader */
+.movie-profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.movie-profile-header-title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.movie-profile-breadcrumb {
+  list-style-type: none;
+  display: flex;
+  gap: 5px;
+  font-size: 1rem;
+  color: #888;
+}
+
+/* MovieOverview */
+.movie-details-container {
+  display: flex;
+  padding: 30px;
+  background-color: #f4f4f4;
+}
+
+.movie-poster-wrapper img {
+  width: 350px;
+  border-radius: 15px;
+}
+
+.movie-info {
+    /* border: solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+.movie-info h1 {
+  font-size: 2.5rem;
+}
+
+.movie-rating {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem; /* Adjust size if needed */
+    color: #f39c12; /* Golden color for the star and rating */
+  }
+
+.movie-info p {
+  font-size: 1.2rem;
+  margin: 20px 0;
+}
+
+.movie-info .movie-genres {
+  color: #666;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.movie-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.movie-info ul li {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+.movie-info strong {
+  color: #0771ea;
+}
+
+
+.related-movies {
+  margin-top: 20px;
+}
+
+.related-movies h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.related-movies-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+}
+
+.movie-card {
+  flex: 0 0 200px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.movie-card img {
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+}
+
+.movie-card-body {
+  padding: 15px;
+}
+
+.movie-card-title {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.movie-card-overview {
+  font-size: 0.875rem;
+  color: #666;
+}
+/* ----------------------- */
+
+  
+ .related-movie-card{
+    height: 50vh;
+    width: 100%;
+ }
+ 
+/*    */
